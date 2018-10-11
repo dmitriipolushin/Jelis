@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Jelis</title>
+	<title>Jelis-разработка сайтов</title>
 	 <!-- add bootstrap css file -->
 
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 	        <a class="nav-link " data-value="team" href="#">О компании</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link " data-value="contact-form" href="#">Контакты</a>
+	        <a class="nav-link " data-value="contact-form" href="#">Свяжитесь с нами</a>
 	      </li>
 	    </ul>
 	    
@@ -75,8 +75,8 @@
 					<div class="card-body">
 					<h4 class="card-title">Лэндинг-Пэйдж </h4>
 						<p class="card-text">
-								Сайт-визитка
-							
+						Лендинг хорошо подходит для демонстрации отдельных направлений 
+						услуг или узкой специализации сбыта товаров. 	
 						</p>
 					</div>
 					<div class="card-footer">
@@ -91,10 +91,10 @@
 					</div>
 					
 					<div class="card-body">
-					   <h4 class="card-title">Сайт компании</h4>
+					   <h4 class="card-title">Корпоративный сайт</h4>
 						<p class="card-text">
-							
-							Премиум
+						Сайт для корпоративных клиентов — индивидуальное решение 
+						с уникальным дизайном и функционалом средней и высокой сложности. 
 						</p>
 					</div>
 					<div class="card-footer">
@@ -109,10 +109,10 @@
 					</div>
 					
 					<div class="card-body">
-					<h4 class="card-title">Корпоративный сайт</h4>
+					<h4 class="card-title">Интернет магазин</h4>
 						<p class="card-text">
-							
-							Интернет-магазин 
+						Интернет-магазин представляет из себя каталог товаров с фильтрациями
+						 и сортировками, в котором можно приобрести продукцию онлайн.
 						</p>
 					</div>
 					<div class="card-footer">
@@ -127,7 +127,7 @@
 <!-- team section -->
 <div class="team" id="team">
 	<div class="container">
-		 <h1 class="text-center">Our Team</h1>
+		 <h1 class="text-center">Наша команда</h1>
 	 <div class="row">
 		<div class="col-lg-3 col-md-3 col-sm-12 item">
 		 <img align="center" src="images/content1.jpg" class="img-fluid" alt="team">
@@ -166,7 +166,7 @@
 	 <form>
 		<div class="row">
 		 <div class="col-lg-4 col-md-4 col-sm-12">
-			 <h1>Get in Touch</h1> 
+			 <h1>Свяжитесь с нами</h1> 
 		 </div>
 		 <div class="col-lg-8 col-md-8 col-sm-12 right">
 				<div class="form-group">
@@ -187,13 +187,7 @@
 	</div>
  </div>
 <!-- footer -->
-<footer>
-	<div id="social">
-
-	</div>
-	<div id="rights">
-		Все права защищены &copy; <?php echo date ('Y')?>
-</footer>
+<?php require "blocks/footer.php" ?>
 <!-- add Javasscript file from js file -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
